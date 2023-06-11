@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "receipts",
+  "info": {
+    "singularName": "receipt",
+    "pluralName": "receipts",
+    "displayName": "Receipt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "receipt_id": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "money": {
+      "type": "boolean"
+    },
+    "item": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "paymentMethod": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "address": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "time"
+    }
+  }
+}
